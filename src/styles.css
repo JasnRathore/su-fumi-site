@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,400;0,700;1,400;1,700&display=swap')
+layer(base);
+@import 'tailwindcss';
+
+@theme {
+  --font-dancing-script: "Dancing Script", "sans-serif"; 
+  --font-roboto-mono: "Roboto Mono", "sans"; 
+
+  --color-mine-grey: hsl(240 10% 5.9%);
+  --color-mine-grey-2: hsl(240 10% 10%);
+  --color-mine-grey-3: hsl(240 10% 30%);
+  --color-mine-grey-4: hsl(240 10% 20%);
+  
+  --animate-fade-in: fadeIn 0.1s ease-in-out;
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  --animate-fade-out: fadeOut 0.1s ease-in-out;
+  
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+}
+
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: black; 
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  cursor: url('arrow.png'), auto;
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  cursor: url('pointer.png'), auto;
+  background: linear-gradient(#fed7aa,#f2c6de,#c9e4de,#c6def1); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+
