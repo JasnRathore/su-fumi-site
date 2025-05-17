@@ -1,7 +1,7 @@
 'use client'
 import { ScrollSection } from "../components/scroll-section"
 import { LinkButton } from "../components/link-button";
-import { PALogo } from "../logos"
+import { PALogo, GlideLogo } from "../logos"
 
 export default function ProductsSection() {
   return (
@@ -18,6 +18,12 @@ export default function ProductsSection() {
           logo={<PALogo className="size-6 md:size-8"/>} 
           vidSrc="/vid/PA-DEMO.mp4"
           link="products/pa"
+        />
+        <ProductCard
+          name="Glide" 
+          logo={<GlideLogo className="size-6 md:size-8"/>} 
+          vidSrc="/vid/GLIDE-DEMO.mp4"
+          link="products/glide"
         />
         {/* You can add more ProductCards here and they'll stack vertically on mobile 
             and display horizontally on medium screens and above */}

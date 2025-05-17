@@ -8,12 +8,15 @@ import type { getConfig as Index_getConfig } from './pages/index';
 // prettier-ignore
 import type { getConfig as Logo_getConfig } from './pages/logo';
 // prettier-ignore
+import type { getConfig as ProductsGlide_getConfig } from './pages/products/glide';
+// prettier-ignore
 import type { getConfig as ProductsPa_getConfig } from './pages/products/pa';
 
 // prettier-ignore
 type Page =
 | ({ path: '/' } & GetConfigResponse<typeof Index_getConfig>)
 | ({ path: '/logo' } & GetConfigResponse<typeof Logo_getConfig>)
+| ({ path: '/products/glide' } & GetConfigResponse<typeof ProductsGlide_getConfig>)
 | ({ path: '/products/pa' } & GetConfigResponse<typeof ProductsPa_getConfig>);
 
 // prettier-ignore
