@@ -93,7 +93,7 @@ const InstallationSection = () => {
         </span>
       </div>
       <ol className="flex flex-col gap-2 pl-4 list-decimal">
-        <li><strong>Download</strong> the latest release (<code>project-aliaser@v0.1.0.zip</code>). from <a href="https://github.com/JasnRathore/project-aliaser/releases/tag/v0.1.0" className="underline text-sky-300" target="_blank"> Here </a></li>
+        <li><strong>Download</strong> the latest release (<code>project-aliaser@v0.1.0.zip</code>). from <a href="https://github.com/JasnRathore/project-aliaser/releases" className="underline text-sky-300" target="_blank"> Here </a></li>
         <li><strong>Extract</strong> the files in a folder (e.g., <code>~\sufumi\project-aliaser\</code>)</li>
         <li><strong>Add</strong> the folder to your <code>$PATH</code>.</li>
         <li><strong>Run in PowerShell</strong>:

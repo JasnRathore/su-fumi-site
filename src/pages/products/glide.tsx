@@ -88,7 +88,7 @@ const InstallationSection = () => {
       </div>
       <strong>Option 1:</strong>
       <ol className="flex flex-col gap-2 pl-4 list-decimal">
-        <li><strong>Download</strong> the latest release (<code>glide.exe</code>). from <a href="https://github.com/JasnRathore/glide/releases/tag/v0.1.0" className="underline text-sky-300" target="_blank"> Here </a></li>
+        <li><strong>Download</strong> the latest release (<code>glide.exe</code>). from <a href="https://github.com/JasnRathore/glide/releases" className="underline text-sky-300" target="_blank"> Here </a></li>
         <li><strong>Place </strong> the executable in a directory included in your system PATH </li>
       </ol>
       <strong>Option 2:</strong>
